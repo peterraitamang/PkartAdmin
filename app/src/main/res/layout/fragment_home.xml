@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".fragments.HomeFragment">
+
+    <Button
+        android:id="@+id/btnAddCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="Add Category" />
+
+    <Button
+        android:id="@+id/btnAddProducts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="Add Products"
+        android:layout_marginTop="18dp" />
+
+    <Button
+        android:id="@+id/btnAddSlider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="Add Slider"
+        android:layout_marginTop="18dp" />
+
+    <Button
+        android:id="@+id/btnAddOrderDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="All Order Details"
+        android:layout_marginTop="18dp" />
+
+
+</LinearLayout>
